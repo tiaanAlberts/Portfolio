@@ -56,6 +56,12 @@ li .btn-outline-light{
 }
 #landing h1{
   color: white;
+  font-size: calc(50px + (110 - 50) * ((100vw - 300px) / (1600 - 300)));
+}
+#landing h3{
+  /* font-size: 60px max; */
+  /* font-size: 35px min; */
+  font-size: calc(35px + (60 - 35) *((100vw - 300px) / (1600 - 300)));
 }
 #section2{
 
