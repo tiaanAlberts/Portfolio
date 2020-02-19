@@ -28,8 +28,8 @@ app.post('/contact', (req, res) => {
     stmpTrans = nodemailer.createTransport({
         service: 'Gmail',
         auth:{
-            user: 'tiaanmailbox@gmail.com',
-            pass: '7946134679'
+            user: process.env.GMAIL_USER,
+            pass: process.env.GMAILPW
         }
     });
     // Mail Options
