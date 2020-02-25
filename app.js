@@ -55,6 +55,10 @@ app.post('/contact', (req, res) => {
     
 });
 
+app.get('/price', (req, res) => {
+    res.render('price');
+});
+
 app.listen(port, ip, () => {
     console.log('Server has started on port: ' + port);
 });

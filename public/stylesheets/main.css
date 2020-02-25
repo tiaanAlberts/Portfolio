@@ -22,7 +22,6 @@ li .btn-outline-light{
 .navbar-brand{
   margin-left: 8px;
   margin-right: 8px;
-  font-family: 'Homemade Apple', cursive;
   color: white;
 }
 .navbar-brand:focus{
@@ -49,7 +48,7 @@ li .btn-outline-light{
 #landing{
   padding-top: 10rem;
   padding-bottom: 4rem;
-  background: rgb(37,37,43);
+ 
   background: linear-gradient(90deg, rgba(37,37,43,1) 0%, rgba(37,37,43,1) 35%, rgba(60,60,70,1) 100%);
 }
 #landing h1{
@@ -80,6 +79,27 @@ li .btn-outline-light{
 
 #contact_container{
   padding-top: 8rem;
+}
+#contact_container h3{
+  font-family: 'Expletus Sans';
+  font-size: 3rem;
+}
+#pricing_content{
+  margin-top: 100px;
+}
+#pricing_content .card{
+  width: 15rem;
+  background: white;
+  transition: 500ms;
+}
+#pricing_content .card:hover{
+  width: 15rem;
+  background: rgb(37,37,43);
+  color: white;
+  border: 2px solid white;
+}
+#pricing_content #header h1{
+  font-family: "Expletus Sans";
 }
 
 .parallax1 {
